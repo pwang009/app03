@@ -1,0 +1,9 @@
+version: '3.4'
+services:
+  json-server:
+    image: clue/json-server
+    ports:
+      - 5001:80
+    volumes:
+      - ./data:/data
+    command: db.json

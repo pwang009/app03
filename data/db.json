@@ -1,0 +1,44 @@
+{
+  "enquiry": [
+    {
+      "firstName": "Peng",
+      "lastName": "Wang",
+      "email": "pwang009@yahoo.com",
+      "mobile": "9494395275",
+      "weight": 75,
+      "height": 1.7,
+      "bmi": 25.95155709342561,
+      "bmiResult": "overweight",
+      "importantList": [
+        "Muscle",
+        "Digestive"
+      ],
+      "package": "Quarterly",
+      "gender": "Male",
+      "requestTrainer": "No",
+      "beenGym": "Yes",
+      "enquiryDate": "2023-06-14T07:00:00.000Z",
+      "id": 5
+    },
+    {
+      "firstName": "Tony",
+      "lastName": "Wang",
+      "email": "pwang009@gmail.com",
+      "mobile": "9495551234",
+      "weight": 77,
+      "height": 1.8,
+      "bmi": 23.76543209876543,
+      "bmiResult": "normal",
+      "importantList": [
+        "Fat reduction",
+        "Endurance"
+      ],
+      "package": "Quarterly",
+      "gender": "Male",
+      "requestTrainer": "No",
+      "beenGym": "Yes",
+      "enquiryDate": "2023-06-14T07:00:00.000Z",
+      "id": 6
+    }
+  ]
+}
