@@ -5,14 +5,12 @@ import { ListRegistrationComponent } from './list-registration/list-registration
 import { DetailRegistrationComponent } from './detail-registration/detail-registration.component';
 import { MaterialModule } from '../material/material.module';
 import { RouterModule } from '@angular/router';
-import { TestComponent } from './test/test.component';
 
 @NgModule({
   declarations: [
     CreateRegistrationComponent,
     ListRegistrationComponent,
     DetailRegistrationComponent,
-    TestComponent
   ],
   imports: [
     CommonModule,
