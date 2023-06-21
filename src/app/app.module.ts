@@ -8,6 +8,7 @@ import { NgConfirmModule } from 'ng-confirm-box';
 import { MaterialModule } from './material/material.module';
 import { RegistrationModule } from './registration/registration.module';
 import { HttpClientModule } from '@angular/common/http';
+import { AccountModule } from './account/account.module';
 
 @NgModule({
   declarations: [
@@ -15,13 +16,14 @@ import { HttpClientModule } from '@angular/common/http';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
     BrowserAnimationsModule,
     HttpClientModule,
     NgToastModule,
     NgConfirmModule,
     MaterialModule,
-    RegistrationModule
+    RegistrationModule,
+    AccountModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
